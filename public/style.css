@@ -1,0 +1,83 @@
+html {
+    background-image: url("background.png");
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  h2 {
+    text-align: center;
+    color: black;
+  }
+  .heading {
+    color: white;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+  }
+  
+  #calendar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #date_prompt {
+    margin-right: 30px;
+  }
+  
+  #Test_date {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-left: 15%;
+  }
+  
+  #dbutton {
+    background-color: transparent;
+    border: none;
+  }
+  
+  input {
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+  }
+  
+  .buttons {
+    display: inline;
+    margin-top: 22%;
+    margin-left: 8%;
+    background-image: radial-gradient(white, #ede2fa, #d5bdf4);
+    font-family: Archivo-Black;
+    font-size: 1.5rem;
+    border: none;
+    text-align: center;
+    height: 102.1px;
+    width: 528.2px;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .buttons:hover {
+    box-shadow: 5px 5px 5px #7645b7;
+  }
+  
+  #cycleDuration {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #cycleInfo {
+    margin-right: 40px;
+  }
+  
+  #duration {
+    margin-top: 15px;
+  }
+  
+  #info {
+    color: white;
+  }
+  
