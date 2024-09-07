@@ -13,10 +13,10 @@ function Next(params) {
 }
 function Ovulation(params) {
   const ovDate1 = new Date(params.lastDate);
-  ovDate1.setDate(ovDate1.getDate() + parseInt(params.cycleDuration, 10) - 16);
+  ovDate1.setDate(ovDate1.getDate() + parseInt(params.cycleDuration, 10) - 19);
   const formattedDate1 = ovDate1.toLocaleDateString();
   const ovDate2 = new Date(params.lastDate);
-  ovDate2.setDate(ovDate2.getDate() + parseInt(params.cycleDuration, 10) - 12);
+  ovDate2.setDate(ovDate2.getDate() + parseInt(params.cycleDuration, 10) - 14);
   const formattedDate2 = ovDate2.toLocaleDateString();
   return (
     <h2 id="info">
