@@ -2,6 +2,9 @@ import React from "react";
 import ReactDom from "react-dom";
 
 function Next(params) {
+  if (params.cycleDuration<20) {
+    return  <h2 id="info">Invalid Cycle Duration.</h2>
+  }
   const nextPeriodDate = new Date(params.lastDate);
   nextPeriodDate.setDate(
     nextPeriodDate.getDate() + parseInt(params.cycleDuration, 10)
@@ -12,6 +15,9 @@ function Next(params) {
   );
 }
 function Ovulation(params) {
+  if (params.cycleDuration<20) {
+    return  <h2 id="info">Invalid Cycle Duration.</h2>
+  }
   const ovDate = new Date(params.lastDate);
   ovDate.setDate(ovDate.getDate() + parseInt(params.cycleDuration, 10) - 14);
   const formattedOvulationDate = ovDate.toLocaleDateString();  
