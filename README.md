@@ -28,7 +28,7 @@ This tool helps users **anticipate changes, track symptoms, and identify pattern
 ### Steps  
 1. **Clone the Repository:**  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/garimabhayanaa/PeriodPal
    cd PeriodPal
 2. **Install Dependencies:**
    ```bash
